@@ -39,15 +39,3 @@
     background-position: 1em;
 }
 
-.xxx{
-    display: block;
-    background-color: var(--branco);
-}
-
-.xxx__titulo{
-    font-weight: 700;
-    font-size: 1,125em;
-    text-align: center;
-    color: var(--cor-laranja);
-    padding: 1.5em;
-}
