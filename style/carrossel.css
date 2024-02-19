@@ -72,15 +72,56 @@
 
 .botoes__ancora{
     background-color: var(--cor-laranja);
-    padding: 1em 2em ;
+    padding: 1em 2.2em ;
     width: 6em;
     height: 1em;
     /* margin: 1em 0; */
 
-    text-align: center;
+
     font-weight: 700;
     color: var(--branco);
     text-decoration: none;
 
+}
 
+.topicos {
+    background: var(--azul-gradiente);
+    text-align: center;
+    align-items: center;
+}
+
+.recente{
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 300;
+    padding: 1.5em;
+    text-align: center;
+    align-items: center;
+
+}
+
+.botoes__topicos{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row: auto;
+    align-items: center;
+    text-align: center;
+    padding: 1em 0.5em;
+}
+
+.botoes__topicos_item{
+    background-color: var(--cor-laranja);
+    padding: 1em 2.5em ;
+    width: 2em;
+    height: 1em;
+    align-items: center;
+    text-align: center;
+
+
+    font-weight: 700;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 0,875em;
+    text-transform: capitalize;
 }

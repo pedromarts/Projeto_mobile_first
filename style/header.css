@@ -68,3 +68,6 @@
     display: none;
 }
 
+.card__estrelas{
+    padding: 0.5em 0;
+}
