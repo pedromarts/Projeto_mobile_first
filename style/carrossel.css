@@ -3,7 +3,7 @@
 .carrossel__titulo{
     background-color: var(--branco); 
     font-weight: 700;
-    font-size: 1,125em;
+    font-size: 1.125em;
     text-align: center;
     color: var(--cor-laranja);
     padding: 1em 0 0.5em 0;
@@ -84,4 +84,26 @@
 
 }
 
+@media screen and (min-width: 1024px) {
 
+    .carrossel__titulo{
+        font-size: 1.625em;
+        padding: 2em 0 0.5em 0;
+
+    }
+    .swiper-slide img {
+        display: block;
+        width: 70%;
+
+    }
+
+    .swiper-pagination{
+        margin: 3em;
+    }
+
+    .card{
+         margin: 4em 12em;
+        padding: 1em;
+    }
+
+}
