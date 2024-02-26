@@ -11,7 +11,7 @@
     
 }
 
-.contat__titulo{
+.contato__titulo{
     font-size: 1,125em;
     font-weight: 500;
 
@@ -45,4 +45,29 @@
     background: url("../img-mobile_first/Email.svg") no-repeat;
     background-position: 1em;
     padding-left: 3em;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contato__titulo{
+        font-size: 1.5em;
+
+        
+    }
+
+    .contato__descricao {
+        margin-right: 1em;
+        width: 40%;
+    }
+
+    .contato__email{
+        font-size: 1em;
+        width: 30%;
+
+    }
+
 }

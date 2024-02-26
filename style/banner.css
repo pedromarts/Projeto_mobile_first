@@ -52,17 +52,18 @@
     }
     
     .banner__texto{
-
         padding: 1em;
-
     }
+    
     .banner__pesquisa{
         font-size: 1em;
         width: 50%;
         height: 56px;
 
-        
     }
+    .banner__pesquisa::placeholder{
 
+        background-position: 4em;
+    }
 }
 
