@@ -8,9 +8,12 @@
 
 :root{
     --cor-de-fundo: #EBECEE;
+    --fundo-cinza: #f9f9f9;
     --branco: #FFFFFF;
     --fonte-primaria: "Poppins", sans-serif;
     --fonte-logo: "Josefin Sans", sans-serif; 
+    --fonte-footer: #858585;
+    --fonte-footer-link: #474646;
     --cor-laranja:#EB9B00;
     --cor-azul: #002F52;
     --azul-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
