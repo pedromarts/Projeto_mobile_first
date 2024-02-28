@@ -10,6 +10,7 @@
 .container{
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .cabecalho__menu-hamburguer{
@@ -77,6 +78,9 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
 
 @media screen and (min-width: 1024px) {
     
@@ -124,5 +128,29 @@
     }
     .opçoes__botao{
         display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho{
+        padding: 2em;
+    }
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 1.25em;
+
+    }
+    .container__texto{
+        display: block;
+    }
+
+    .opçoes{
+        margin-right: auto;
     }
 }

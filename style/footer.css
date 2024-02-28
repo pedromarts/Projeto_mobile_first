@@ -4,11 +4,9 @@ hr {
 
 .rodape{
     background-color: var(--branco);
+    padding: 1em;
 }
 
-.rodape__titulo{
-   padding: 1em;
-}
 
 .rodape__coluna{
     display: none;
@@ -27,7 +25,7 @@ hr {
 }
 .rodape__coluna{
     display: block;
-    /* margin: 0 0 2em 0; */
+
 
 }
 .rodape__coluna_cabecalho{
@@ -53,5 +51,16 @@ hr {
 
 
 }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape{
+        padding: 3em;
+    }
+    .rodape__coluna{
+        border-left: 1px solid var(--fonte-footer);
+
+    }
 
 }

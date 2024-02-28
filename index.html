@@ -73,15 +73,19 @@
                 <a href="#" class="opçoes__link">Minha estante</a>
             </li>
         </ul>
-        
-        
-        
         <div class="container">
-            <a href="#"><img src="img-mobile_first/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="img-mobile_first/Compras.svg" alt="carrinho de ocmpras" class="container__imagem"></a>
-            <a href="#"><img src="img-mobile_first/Usuario.svg" alt="menu usuario" class="container__imagem"></a>
+            <a  href="#"><img src="img-mobile_first/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a class="container__link"  href="#">
+                <img src="img-mobile_first/Compras.svg" alt="carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha sacola</p>
+            <a class="container__link" href="#">
+                <img src="img-mobile_first/Usuario.svg" alt="menu usuario" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>  
+
+
     <!-- Classe dos banners -->
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
@@ -92,6 +96,7 @@
     <!-- Carrossel -->
         <section class="carrossel">
             <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
+            <div class="carrossel__container">
                 <!-- Slider main container -->
             <div class="swiper">
                 <!-- If we need pagination -->
@@ -112,35 +117,37 @@
                 <!-- If we need scrollbar
                 <div class="swiper-scrollbar"></div> -->
             </div>
+
             <!-- CARD -->
             <div class="card">
                 <!-- 1ª Linha -->
-                <div class="card__descricao">
+                    <div class="card__descricao">
                 <!-- 1ª coluna -->
                     <div class="descricao">
                         <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
                         <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
                         <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                     </div>
-                <!-- 2ª coluna -->
-                    <img src="img-mobile_first/Angular.svg" alt="imagem logo angular">
+                    <!-- 2ª coluna -->
+                        <img src="img-mobile_first/Angular.svg" alt="imagem logo angular">
+                    </div>
+                <!-- 2ª Linha -->
+                    <div class="card__botoes">
+                        <!-- 1ª coluna -->
+                        <ul class="botoes">
+                            <li class="botoes__item"><img src="img-mobile_first/Favoritos.svg"></li>
+                            <li class="botoes__item"><img src="img-mobile_first/Compras.svg"></li>
+                        </ul>
+                        <!-- 2ª coluna -->
+                    <a  href="#" class="botoes__ancora">Saiba mais</a>
                 </div>
-
-              <!-- 2ª Linha -->
-              <div class="card__botoes">
-                <!-- 1ª coluna -->
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="img-mobile_first/Favoritos.svg"></li>
-                    <li class="botoes__item"><img src="img-mobile_first/Compras.svg"></li>
-                </ul>
-                <!-- 2ª coluna -->
-                <a  href="#" class="botoes__ancora">Saiba mais</a>
-              </div>
-
             </div>
+        </div>
+
 
             <!-- CARROSSEL MAIS VENDIDOS -->
             <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+            <div class="carrossel__container">
             <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -190,6 +197,7 @@
                       </div>
         
                     </div>
+            </div>
         <!-- Tópicos visitados -->
     </section>
     <section class="topicos">
