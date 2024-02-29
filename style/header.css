@@ -24,7 +24,7 @@
 }
 
 .container__botao:checked~.container__rotulo>.cabecalho__menu-hamburguer {
-    background-image: url("../img-mobile_first/Menu aberto.svg"); 
+    background-image: url("../img-mobile_first/Menu\ Aberto.svg"); 
 }
 
 .container__botao:checked~.container__rotulo {
